@@ -32,7 +32,7 @@ I found two face mask datasets: [MedicalMaskDatasetImagesTfrecords](https://www.
     python detect.py --weights weights/yolov5s_mask_detector_wider_pretrained_weights.pt --source data/images/faces.jpg
     ```
 
-2. Second is to 'wear' masks on 50% WiderFace datacet faces and use it together with mask datasets. It provides class balance and different lightnings, scales and positions. The disadvantage is that I use only 23 mask and they are weared on faces in similar way. You may find masks at  ```data/images/masks.zip```.
+2. Second is to 'wear' masks on 50% WiderFace datacet faces and use it together with mask datasets. It provides class balance and different lightnings, scales and positions. The disadvantage is that I use only 23 mask and they are weared on faces in similar way. You may find masks at  ```data/images/masks.zip```. This model is used by default.
 ![](examples/custom_wider2.png)
    
 
