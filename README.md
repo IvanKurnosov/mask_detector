@@ -1,4 +1,4 @@
-#Real time Face Mask Detector
+# Real time Face Mask Detector
 This repository represents face mask detector, based on [ultralytics YOLOv5s](https://github.com/ultralytics/yolov5) model and trained on custom dataset
 
 ![](examples/jerusalem.gif)
